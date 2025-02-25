@@ -24,8 +24,8 @@ services:
       DEFAULT_DRAW_COUNT: 0
       MAIL_HOST: smtp.qq.com
       MAIL_PORT: 25
-      MAIL_USERNAME: your-email-username
-      MAIL_PASSWORD: your-email-password
+      MAIL_USERNAME: 1157934649@qq.com
+      MAIL_PASSWORD: qzjgepsbabkpibda
       TZ: Asia/Shanghai
     ports:
       - "8082:8080"
