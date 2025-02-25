@@ -37,7 +37,7 @@ services:
     depends_on:
       - admin
     ports:
-      - "80:3000"
+      - "8083:3000"
     environment:
       BASE_URL: http://aichat-admin:8080
       TZ: Asia/Shanghai
@@ -60,8 +60,8 @@ services:
     environment:
       MYSQL_ROOT_PASSWORD: 123456
       TZ: Asia/Shanghai
-    # ports:
-    #   - "3310:3306"
+    ports:
+     - "3310:3306"
     volumes:
       - ./mysql_data:/var/lib/mysql
 
@@ -69,5 +69,5 @@ services:
     image: nanjiren01/aichat-redis:latest
     container_name: aichat-redis
     restart: always
-  #    ports:
-  #      - "6380:6379"
+    ports:
+      - "6380:6379"
