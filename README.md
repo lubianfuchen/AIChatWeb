@@ -192,7 +192,7 @@
 ![站点管理](./docs/images/site-setting.jpg)
 
 ## 依赖
-本项目需要依赖特定的[**后端**](https://github.com/Nanjiren01/AIChatAdmin)，以及相应的[**管理后台前端项目**](https://github.com/Nanjiren01/AIChatConsole)。
+本项目需要依赖特定的[**后端**](https://github.com/lubianfuchen/AIChatAdmin)，以及相应的[**管理后台前端项目**](https://github.com/lubianfuchen/AIChatConsole)。
 
 ## 一键部署
 
@@ -203,7 +203,7 @@
 3. 连接云服务器，在命令行中运行以下代码
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Nanjiren01/AIChatWeb/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/lubianfuchen/AIChatWeb/main/scripts/setup.sh)
 ```
 
 命令运行过程中，需要设置超级管理员的账号和密码（请将aichat888更改为自己的账号密码并牢记），如下所示：
@@ -458,7 +458,7 @@ In the admin panel, you can also set the registration method (supporting usernam
 ![Quota Change History](./docs/images/quota.png)
 
 ## Dependencies
-This project requires specific [**backend**](https://github.com/Nanjiren01/AIChatAdmin) and corresponding [**administration frontend project**](https://github.com/Nanjiren01/AIChatConsole).
+This project requires specific [**backend**](https://github.com/lubianfuchen/AIChatAdmin) and corresponding [**administration frontend project**](https://github.com/lubianfuchen/AIChatConsole).
 
 ## One-Click Deployment
 
@@ -469,7 +469,7 @@ This project requires specific [**backend**](https://github.com/Nanjiren01/AICha
 3. Connect to the cloud server and run the following command in the command line:
 
 ```shell
-bash <(curl -s https://raw.githubusercontent.com/Nanjiren01/AIChatWeb/main/scripts/setup.sh)
+bash <(curl -s https://raw.githubusercontent.com/lubianfuchen/AIChatWeb/main/scripts/setup.sh)
 ```
 
 During the execution of the command, you will be prompted to set the username and password for the super admin (please change "aichat888" to your own username and password and remember them), as shown below:

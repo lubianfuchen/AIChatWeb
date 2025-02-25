@@ -1,4 +1,4 @@
-export const OWNER = "Nanjiren01";
+export const OWNER = "lubianfuchen";
 export const REPO = "AIChatWeb";
 export const REPO_URL = `https://github.com/${OWNER}/${REPO}`;
 export const ISSUE_URL = `https://github.com/${OWNER}/${REPO}/issues`;

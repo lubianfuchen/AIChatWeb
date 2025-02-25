@@ -49,7 +49,7 @@
     "bundle": {
       "active": true,
       "category": "DeveloperTool",
-      "copyright": "2023, Nanjiren01 All Rights Reserved.",
+      "copyright": "2023, lubianfuchen All Rights Reserved.",
       "deb": {
         "depends": []
       },
@@ -61,7 +61,7 @@
         "icons/icon.icns",
         "icons/icon.ico"
       ],
-      "identifier": "com.nanjiren01.aichat.web",
+      "identifier": "com.lubianfuchen.aichat.web",
       "longDescription": "AIChatWeb is a cross-platform AI Chat client, including Web/Win/Linux/OSX/PWA.",
       "macOS": {
         "entitlements": null,
@@ -85,7 +85,7 @@
     "updater": {
       "active": true,
       "endpoints": [
-        "https://github.com/Nanjiren01/AIChatWeb/releases/latest/download/latest.json"
+        "https://github.com/lubianfuchen/AIChatWeb/releases/latest/download/latest.json"
       ],
       "dialog": false,
       "windows": {
