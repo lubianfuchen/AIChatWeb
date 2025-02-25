@@ -49,7 +49,7 @@ services:
     depends_on:
       - admin
     ports:
-      - "8080:80"
+      - "8084:80"
     environment:
       TZ: Asia/Shanghai
 
